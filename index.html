@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style> -->
+  </head>
+  <body>
+    <main class="blog-card">
+      
+      <!-- 1. Illustration Image -->
+      <figure class="blog-card__image-box">
+        <img
+          src="/assets/images/illustration-article.svg"
+          alt="Decorative illustration for HTML & CSS foundations"
+          class="blog-card__image"
+        />
+      </figure>
+
+      <!-- 2. Text Content -->
+      <div class="blog-card__content">
+        <header class="blog-card__header">
+          <span class="category">Learning</span>
+          <time datetime="2023-12-21">Published 21 Dec 2023</time>
+        </header>
+
+        <a href="#" class="blog-card__title">HTML & CSS foundations</a>
+
+
+        <p class="blog-card__description">
+          These languages are the backbone of every website, defining structure, content, and presentation.
+        </p>
+      </div>
+
+      <!-- 3. Author Footer -->
+      <footer class="blog-card__footer">
+        <img
+          src="/assets/images/image-avatar.webp"
+          alt="Photo of Greg Hooper"
+          class="blog-card__avatar"
+        />
+        <span class="blog-card__author">Greg Hooper</span>
+      </footer>
+
+    </main>
+  </body>
+</html>
