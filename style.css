@@ -95,7 +95,7 @@ time {
   font-size: 1.25rem;
   margin-bottom: 0.75rem;
   display: inline-block;
-  transition: color 0.2s ease;
+  transition: none;
 }
 
 .blog-card__title:hover,
@@ -131,8 +131,8 @@ time {
   color: var(--gray-950);
 }
 
-@media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion: no-preference) {
   .blog-card__title {
-    transition: none;
+    transition: color 0.2s ease;
   }
 }
