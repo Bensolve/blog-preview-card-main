@@ -132,27 +132,12 @@ time {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .blog-card__title {
+
+  .blog-card__title:hover,
+  .blog-card__title:focus {
+    color: var(--yellow);
+    text-decoration: underline;
     transition: none;
   }
 }
 
-/* @media (min-width: 640px) {
-  .blog-card {
-    max-width: 600px;
-    padding: 2rem;
-    gap: 2rem;
-  }
-
-  .blog-card__title {
-    font-size: 1.5rem;
-  }
-
-  .blog-card__description {
-    font-size: 1.125rem;
-  }
-
-  .blog-card__author {
-    font-size: 1rem;
-  }
-} */
