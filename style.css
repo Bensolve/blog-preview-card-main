@@ -137,7 +137,7 @@ time {
   .blog-card__title:focus {
     color: var(--yellow);
     text-decoration: underline;
-    transition: none;
+    transition: none !important;
   }
 }
 
