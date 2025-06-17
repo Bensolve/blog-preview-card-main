@@ -132,12 +132,7 @@ time {
 }
 
 @media (prefers-reduced-motion: reduce) {
-
-  .blog-card__title:hover,
-  .blog-card__title:focus {
-    color: var(--yellow);
-    text-decoration: underline;
-    transition: none !important;
+  .blog-card__title {
+    transition: none;
   }
 }
-
